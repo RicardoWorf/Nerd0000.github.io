@@ -1,0 +1,11 @@
+body{
+    background-color:black;
+}
+.eu{
+    border: 3px solid grey;
+    width: 150px;
+    height: 200px;
+}
+.texto{
+    color: white;
+}
