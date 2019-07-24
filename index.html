@@ -1,45 +1,62 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Alan C.</title>
-        <meta charset="UTF-8">
-        <link href="index.css" rel="stylesheet "><!--estilos-->
+        <meta charset="UTF-8"> <!--Define padrão de linguagem portugues-->
+        <meta name="viewport" content="width=device-width"> <!--adaptar a largura do dispositivo-->
+        <link href="index.css" rel="stylesheet "> <!--estilos-->
     </head>
-    <body>
-        <h1 class="texto">Currículo</h1><!--titulo-->
-            <img class="eu" src="img\eu.jpg"><!--foto-->
-            <br>
-            <div class="texto">
-                    <p>Nome: Alan Christian Amaral Santana</p>
-                    <p>Data de nascimento: 27/09/2000</p>
-                <!--lista de associação-->
-                <dl>
-                    <dt> Estudante de T.I.</dt> <!--Meu Cargo-->
-                    <!--O que faço no cargo-->
-                    <dd>Programador</dd>
-                    <dd>Desenvolvedor de software</dd>
-                    <dd>Estudante de robótica</dd>
-                    <dd>Desenhista nas horas vagas</dd>
-                </dl>
-                <footer>
-                <!--botoes-->
-                <button>
-                    <a href="https://www.linkedin.com/in/alanchristian0/" target="_blank">Linkedin</a>
-                </button>
-                <button>
-                    <a href="https://www.tinkercad.com/users/7kbRcmKM7hu-nerd0000?category=circuits&sort=likes&view_mode=default" target="_blank">Tinkercad</a>
-                </button>
-                <button>
-                    <a href="https://github.com/Nerd0000" target="_blank">Github</a>
-                </button>
-                <p></p><!--quebra a linha com espaço-->
 
-                <button>
-                    <a href="https://www.urionlinejudge.com.br/judge/pt/profile/234840" target="_blank">Uri Online Judge</a>
-                </button>
-                <button>
-                    <a href="https://sketch.sonymobile.com/u/Nerd0000" target="_blank">Sketch</a>
-                </button>
-                </footer>
-             </div>
+    <body>
+        <header class="cabecalho">
+         <h1>Currículo</h1> <!--titulo-->
+        </header>
+				
+        <article><!--foto-->
+        <img class="eu" src="img\eu.jpg">
+        <br>
+        </article>
+
+        <section class="texto">
+            <p>Nome: Alan Christian Amaral Santana</p>
+            <p>Data de nascimento: 27/09/2000</p>
+            <dl> <!--lista de associação-->
+                <dt> Estudante de T.I.</dt> <!--Meu Cargo-->
+                <!--O que faço no cargo-->
+                <dd>Programador</dd>
+                <dd>Desenvolvedor de software</dd>
+                <dd>Estudante de robótica</dd>
+                <dd>Desenhista nas horas vagas</dd>
+            </dl>
+        </section>
+
+        <section class="botoes">
+            <button>
+                <a href="https://www.linkedin.com/in/alanchristian0/"
+                target="_blank">Linkedin</a>
+            </button>
+
+            <button>
+                <a href="https://www.tinkercad.com/users/7kbRcmKM7hu-nerd0000?category=circuits&sort=likes&view_mode=default"
+                target="_blank">Tinkercad</a>
+            </button>
+
+            <button>
+                <a href="https://github.com/Nerd0000"
+                target="_blank">Github</a>
+            </button>
+
+        <p></p><!--quebra a linha com espaço-->
+
+            <button>
+                <a href="https://www.urionlinejudge.com.br/judge/pt/profile/234840"
+                target="_blank">Uri Online Judge</a>
+            </button>
+
+            <button>
+                <a href="https://sketch.sonymobile.com/u/Nerd0000"
+                target="_blank">Sketch</a>
+            </button>
+		</section>
     </body>
 </html>
