@@ -16,8 +16,10 @@ body{
 }
 .eu{
     border: 3px solid grey;
+    margin-top: 5px;
     width: 150px;
-    height: 200px;
+    height: 150px;
+    border-radius: 50%;/*torna a foto circular*/
 }
 .texto{
     color: white;
