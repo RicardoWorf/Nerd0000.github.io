@@ -21,7 +21,7 @@ body{
     height: 150px;
     border-radius: 50%;/*torna a foto circular*/
 }
-.texto{
+main{
     color: white;
     font-family: Cambria;
 }
