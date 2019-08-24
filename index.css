@@ -1,5 +1,6 @@
 body{
     background-color:black;
+    color:white;
 }
 .cabecalho {
     background-color: whitesmoke;
@@ -22,9 +23,8 @@ body{
     border-radius: 50%;/*torna a foto circular*/
 }
 main{
-    color: white;
     font-family: Cambria;
 }
-a{
+a{/*tira o traço dos botões*/
     text-decoration: none;
 }
