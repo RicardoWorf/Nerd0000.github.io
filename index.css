@@ -1,30 +1,36 @@
-body{
+body {
     background-color:black;
     color:white;
 }
+
 .cabecalho {
     background-color: whitesmoke;
     font-family: Arial;
     margin-bottom: 1%;/*espaço externo*/
     padding: 10px 0;/*espaço interno*/
 }
-.cabecalho h1{
+
+.cabecalho h1 {
     font-size: 200%;
     text-align: center;
     color: rgb(0, 0, 0);
     padding: 10px 0;
     text-shadow: 2px 2px rgb(153, 152, 152);
 }
-.eu{
+
+.eu {
     border: 3px solid grey;
     margin-top: 5px;
     width: 150px;
     height: 150px;
-    border-radius: 50%;/*torna a foto circular*/
+    border-radius: 50%; /*torna a foto circular*/
 }
-main{
+
+main {
     font-family: Cambria;
 }
-a{/*tira o traço dos botões*/
+
+/* tira o traço dos botões */
+a {
     text-decoration: none;
 }
