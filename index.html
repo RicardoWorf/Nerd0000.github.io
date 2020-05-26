@@ -2,35 +2,103 @@
 <html>
 <head>
     <!--Icone da aba-->
-    <link rel="shortcut icon" href="img/eu.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/eu_ico.ico" type="image/x-icon" />
     <!--Titulo da aba-->
     <title>Alan Ch.</title>
     <!--Define padrão de linguagem portugues-->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!--adaptar a largura do dispositivo-->
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width" />
     <!--estilos-->
-    <link href="index.css" rel="stylesheet ">
+    <link href="index.css" rel="stylesheet" />
+    <link href="responsive-design.css" rel="stylesheet" />
+    <!-- Icones FontAwesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </head>
 
 <body>
-    <header class="cabecalho">
-	<!--titulo-->
-        <h1>Quem sou eu?</h1>
-    </header>
+    <div class="container-portfolio">
+        <header>
+            <nav>
+                <!--titulo-->
+                <p>Portfolio Online</p>
+            </nav>
+            <!-- Foto e informacao -->
+            <div class="sobre-eu">
+                <div class="foto-informacao">
+                    <h3>Olá, meu nome é <br /><span>Alan Christian</span></h3>
+                    <p>
+                        Cursando faculdade de Sistemas de informação.<br /><br />
+                        Desenvolvedor de software.<br /><br />
+                        Programador.
+                    </p>
+                    <button class="ver-mais">Ver mais</button>
 
-    <article>
-        <!--foto-->
-        <img class="eu" src="img\eu.jpg">
-    </article>
+                    <div class="icones-social">
+                        <a href="https://www.linkedin.com/in/alanchristian0/">
+                            <i class="fab fa-linkedin" style="color:white;"></i>
+                        </a>
+
+                        <a href="https://profile.codersrank.io/user/nerd0000/">
+                            <img src="img/icones/codersrank.svg" alt="codersrank">
+                        </a>
+
+                        <a href="https://github.com/Nerd0000">
+                            <i class="fab fa-github" style="color:white;"></i>
+                        </a>
+                    </div>
+                    <div class="urionlinejudge">
+                        <a href="https://www.urionlinejudge.com.br/judge/pt/profile/234840">
+                            <button>UriOnlineJudge</button>
+                        </a>
+                    </div>
+                </div>
+                <img src="img\eu_foto_header.png"> 
+            </div>  
+            <img class="borda-header" src="img/bordas/borda-header.svg" alt="borda">   
+        </header>
+        <article>
+            <!--Sobre-->
+            <div class="sobre">
+                <p>Sobre</p>
+            </div>
+
+            <ul>
+                <li>
+                    <div class="titulo">
+                        <img src="img/icones/objetivo.png" alt="objetivo" />
+                        <p>Objetivo</p>
+                    </div>
+                    <p><span>Trabalhar com </span><br />Desenvolvimento de Sistemas</p>
+                </li>
+
+                <li>
+                    <div class="titulo">
+                        <img src="img/icones/rocket.png" alt="objetivo" />
+                        <p>Interesse</p>
+                    </div>
+                    <p class="interesses">
+                        Desenvolvimento Fullstack<br />
+                        Segurança da Informação<br />
+                        Robótica
+                    </p>
+                </li>
+            </ul>
+        </article>
+    </div>
+
+
+
+<!--
+
 
     <main>
         <p>Nome: Alan Christian Amaral Santana</p>
         <p>Data de nascimento: 27/09/2000</p>
         <dl>
-            <!--lista de associação-->
+            lista de associação
             <dt>Sobre</dt>
-            <!--descrição-->
+            descrição
 	    <dd>Cursando faculdade de sistemas de informação</dd>
             <dd>Desenvolvedor de software</dd>
 	    <dd>Programador</dd>
@@ -48,28 +116,6 @@
 	<dd>Robótica</dd>
 	</dl>
     </main>
-
-    <section class="botoes">
-	    
-        <label>Mais informações e contato: </label><p></p>
-	    
-        <button>
-            <a href="https://www.linkedin.com/in/alanchristian0/" target="_blank">Linkedin</a>
-        </button>
-
-        <button>
-            <a href="https://profile.codersrank.io/user/nerd0000/" target="_blank">CodersRank</a>
-        </button><p></p>
-
-        <label>Portfólios: </label><p></p>
-	    
-        <button>
-            <a href="https://github.com/Nerd0000" target="_blank">Github</a>
-        </button>
-        <button>
-            <a href="https://www.urionlinejudge.com.br/judge/pt/profile/234840" target="_blank">Uri Online Judge</a>
-        </button>  
-	    
-    </section>
+-->
 </body>
 </html> 
