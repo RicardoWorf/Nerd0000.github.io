@@ -87,35 +87,17 @@
         </article>
     </div>
 
+    <script>
+        
+        const btnSobre = document.querySelector('.ver-mais');
 
-
-<!--
-
-
-    <main>
-        <p>Nome: Alan Christian Amaral Santana</p>
-        <p>Data de nascimento: 27/09/2000</p>
-        <dl>
-            lista de associação
-            <dt>Sobre</dt>
-            descrição
-	    <dd>Cursando faculdade de sistemas de informação</dd>
-            <dd>Desenvolvedor de software</dd>
-	    <dd>Programador</dd>
-        </dl>	  
-	    
-	<dl>
-    	<dt>Objetivo</dt>
-	<dd>Trabalhar com desenvolvimento de sistemas</dd>
-	</dl>
-	
-	<dl>
-    	<dt>Interesses</dt>
-	<dd>Desenvolvimento Fullstack</dd>
-	<dd>Segurança da Informação</dd>
-	<dd>Robótica</dd>
-	</dl>
-    </main>
--->
+        btnSobre.addEventListener('click', () => {
+            window.scrollTo({
+                top: 1000,
+                left: 0,
+                behavior: 'smooth'
+            })
+        });
+    </script>
 </body>
 </html> 
