@@ -1,0 +1,57 @@
+@media (max-width:1180px) {
+	.container-portfolio article {
+		padding:20px;
+	}
+
+	.container-portfolio article ul {
+		grid-template-columns:1fr;
+		grid-gap:20px 0;
+		margin:70px;
+	}
+
+}
+
+@media (max-width:990px) {
+
+
+	.container-portfolio header nav {
+		text-align:center;
+	}
+
+	.container-portfolio article ul {
+		grid-template-columns:1fr;
+	}
+}
+
+@media (max-width: 830px) {
+
+	.container-portfolio header {
+		height:100%;
+		padding-bottom:100px;
+	}
+
+	.container-portfolio header .sobre-eu {
+		flex-direction:column-reverse;
+	}
+
+	.container-portfolio header .sobre-eu img {
+		margin-bottom:70px;
+	}
+
+	.container-portfolio header .sobre-eu .foto-informacao h3 span{
+		font-size:40px;
+	}
+}
+
+@media (max-width:580px) {
+	.container-portfolio article ul {
+		margin:70px 20px;
+	}
+}
+
+@media (max-width:410px) {
+	.container-portfolio header .sobre-eu {
+		flex-direction:column-reverse;
+		align-items:flex-start;
+	}
+}
